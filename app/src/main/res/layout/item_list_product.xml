@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1,2,3,4,5"
+    android:orientation="horizontal">
+
+    <TableRow>
+        <TextView
+            android:id="@+id/tvProductName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product Name"
+            android:layout_column="1"/>
+
+        <TextView
+            android:id="@+id/tvProductStock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Stock"
+            android:layout_column="1"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/tvProductGoal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Goal"
+            android:layout_column="1"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/tvProductBuy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Buy"
+            android:layout_column="1"/>
+
+        <TextView
+            android:id="@+id/tvProductSoldPerMonth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sold"
+            android:layout_column="1"
+            android:textAlignment="center"/>
+    </TableRow>
+
+</TableLayout>
